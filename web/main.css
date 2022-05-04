@@ -1,0 +1,304 @@
+.main { background-color: #04AA6D;
+		width: 1350px;
+		height: 100px;
+		border-radius: 4px 4px 4px 4px;
+		font-size: 70px;
+		}
+.block1 {  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+		}
+.shift {  display:inline-block; 
+		width:150px;}
+.shift2 {  display:inline-block; 
+		width:150px;}
+		
+
+.block2 {  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+		}
+
+.block3 {  width:120px;
+		height:40px;
+		background-color: #04AA6D;
+		}
+.block4 {  width:120px;
+		height:33px;
+		background-color: #04AA6D;
+		border-radius: 10px 10px 10px 10px;
+                cursor: pointer;
+		}		
+
+#tables {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+  
+   
+   }
+
+#tables td, #tables th {
+    font-size: 1em;
+    border: 1px solid black;
+    padding: 3px 7px 2px 7px;
+  
+}
+
+#tables th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #00CC66;
+    color: #ffffff;
+  
+    
+}
+
+.staffForm{
+    display:none;
+}
+.staffForm2{
+    display:none;
+}
+
+.none1
+{
+	
+}
+.none2
+{
+	
+}
+.grid-container > div {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+  margin-left: 0px;
+}
+
+
+/*Index Page Css*/
+body{
+    background-image: linear-gradient(120deg,#3498db,#8e44ad);
+    margin:0px;
+    text-decoration: none;
+}
+.header
+{
+    height:10%;
+    background-image: linear-gradient(120deg,#feffff,#feffff);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 140%;
+    transition: 0.1s; 
+    box-shadow: 10px 10px 10px 10px rgb(168, 203, 224);  
+    display: flex;
+	flex-direction: row;
+	
+    }
+
+    #list{
+        float:right;
+       margin-left: 900px;
+       padding:0px 30px 0px 0px;
+       color: wheat;
+    }
+
+    #li1
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+        background-color:white;
+        color: black;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+ul li{
+    display:inline-flex;
+}
+#klu
+{
+    font-size: 150%;
+    letter-spacing: 4.5px;
+}
+.middle-buttons
+{
+    text-decoration: none;
+    margin-top: 250px;
+    margin-left:560px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2.5px;
+    font-style: oblique;
+}
+#academics
+{
+    margin-right: 20px;
+    padding:20px;
+    height: 25%;
+    font-size: 25px;
+    color:black;    
+}
+#time-table
+{
+    margin-right: 20px;
+    padding:20px;
+    text-align: center;
+    font-size: 25px;
+}
+/*NavBAr Css*/
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+ /*form CSS*/
+ /*   color variables */
+$clr-primary: #18ffff;
+$clr-primary-light: #adffff;
+$clr-primary-dark: #091034;
+$clr-gray100: #f9fbff;
+$clr-gray150: #f4f6fb;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+$clr-bg: #060b23;
+
+/*   border radius */
+$radius: 0.5rem;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Convergence", sans-serif;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: $clr-bg;
+}
+
+.form {
+  position: relative;
+  width: 20rem;
+  height: 3rem;
+
+  &__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid $clr-gray300;
+    border-radius: $radius;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+
+    &:hover {
+      border-color: $clr-primary-light;
+    }
+
+    /* Change border when input focus*/
+
+    &:focus {
+      border-color: $clr-primary;
+    }
+  }
+
+  &__label {
+    position: absolute;
+    left: 1rem;
+    top: 0.8rem;
+    padding: 0 0.5rem;
+    color: white;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: $clr-bg;
+  }
+}
+
+/* 
+1. When the input is in the focus state
+reduce the size of the label and move upwards 
+
+2. Keep label state when content is in input field 
+*/
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
